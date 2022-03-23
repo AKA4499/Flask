@@ -10,7 +10,7 @@ def testFunction():
 	request_data = request.get_json()
 	print(request_data) 
 
-	return jsonify({"Output":"THIS IS MESSAGE"})
+	return jsonify({"Output":"THIS IS a 2nd MESSAGE"})
 
 if __name__ == '__main__':
 	#serving the application using waitress
